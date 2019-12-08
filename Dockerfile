@@ -21,6 +21,6 @@ RUN tlmgr install algorithm2e algorithms bytefield ec fontawesome latexmk
 
 RUN apk del xz tar
 
-RUN apk --no-cache add libx11 libxext libxrender libstdc++ freetype fontconfig libssl1.0 msttcorefonts-installer
+RUN apk --no-cache add libx11 libxext libxrender libstdc++ freetype fontconfig libssl1.1 msttcorefonts-installer
 
 WORKDIR /root
